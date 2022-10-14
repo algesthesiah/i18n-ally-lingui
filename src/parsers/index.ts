@@ -6,7 +6,6 @@ import { IniParser } from './ini'
 import { PoParser } from './po'
 import { PhpParser } from './php'
 import { Properties } from './properties'
-import { FluentParser } from './ftl'
 import { Parser } from './base'
 
 export const DefaultEnabledParsers = ['json', 'yaml', 'json5']
@@ -24,5 +23,4 @@ export const AvailableParsers: Parser[] = [
   new PoParser(),
   new PhpParser(),
   new Properties(),
-  new FluentParser(),
 ]

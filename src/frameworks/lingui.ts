@@ -12,7 +12,7 @@ class LinguiFramework extends Framework {
   }
 
   enabledParsers = [
-    'po',
+    'json',
   ]
 
   languageIds: LanguageId[] = [
@@ -37,7 +37,7 @@ class LinguiFramework extends Framework {
   }
 
   pathMatcher() {
-    return '{locale}/messages.po'
+    return '{locale}/messages.json'
   }
 }
 

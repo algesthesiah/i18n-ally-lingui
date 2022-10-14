@@ -1,19 +1,19 @@
 {
-  "publisher": "lokalise",
-  "name": "i18n-ally",
-  "version": "2.8.1",
-  "displayName": "i18n Ally",
-  "description": "🌍 All in one i18n extension for VS Code",
+  "publisher": "algesthesiah",
+  "name": "i18n-ally-lingui",
+  "version": "1.0.0",
+  "displayName": "i18n Ally Lingui",
+  "description": "🌍 Lingui preview quickly",
   "keywords": [
-    "vue",
-    "vue-i18n",
+    "react",
     "translate",
     "i18n",
+    "lingui",
     "i18next"
   ],
   "repository": {
     "type": "git",
-    "url": "https://github.com/lokalise/i18n-ally"
+    "url": "https://github.com/algesthesiah/i18n-ally-lingui"
   },
   "main": "./dist/extension",
   "scripts": {
@@ -48,7 +48,6 @@
     "consolidate": "^0.16.0",
     "esm": "^3.2.25",
     "fast-glob": "^3.2.7",
-    "fluent-vue-cli": "^3.0.0-beta.19",
     "glob-gitignore": "^1.0.14",
     "htmlparser2": "^6.1.0",
     "iconv-lite": "^0.6.3",
@@ -158,16 +157,11 @@
     "onLanguage:typescriptreact",
     "onLanguage:json",
     "onLanguage:yaml",
-    "onLanguage:json5",
-    "onLanguage:dart",
-    "onLanguage:php",
-    "onLanguage:handlebars",
-    "onLanguage:ini",
-    "onLanguage:svelte"
+    "onLanguage:json5"
   ],
   "icon": "res/logo.png",
-  "homepage": "https://github.com/lokalise/i18n-ally",
-  "bugs": "https://github.com/lokalise/i18n-ally/issues",
+  "homepage": "https://github.com/algesthesiah/i18n-ally-lingui",
+  "bugs": "https://github.com/algesthesiah/i18n-ally-lingui/issues",
   "contributes": {
     "commands": [
       {
@@ -1179,12 +1173,12 @@
         "i18n-ally.extract.parsers.html": {
           "type": "object",
           "default": {},
-          "description": "Parser options for extracting HTML, see https://github.com/lokalise/i18n-ally/blob/master/src/extraction/parsers/options.ts"
+          "description": "Parser options for extracting HTML, see https://github.com/algesthesiah/i18n-ally-lingui/blob/master/src/extraction/parsers/options.ts"
         },
         "i18n-ally.extract.parsers.babel": {
           "type": "object",
           "default": {},
-          "description": "Parser options for extracting JS/TS/JSX/TSX, see https://github.com/lokalise/i18n-ally/blob/master/src/extraction/parsers/options.ts"
+          "description": "Parser options for extracting JS/TS/JSX/TSX, see https://github.com/algesthesiah/i18n-ally-lingui/blob/master/src/extraction/parsers/options.ts"
         },
         "i18n-ally.extract.autoDetect": {
           "type": "boolean",
